@@ -84,10 +84,12 @@ nav a:hover {
         font-size: $fonts40;
         width: $width100;
         margin-bottom: 15px;
+        font-family: 'glaho';
           }
       h3 {
         font-size: $fonts30;
         width: $width100;
+        font-family: 'ninof';
         
       }
 }
@@ -99,12 +101,14 @@ nav a:hover {
     padding-top: 60px;
     padding-bottom: 15px;
     color: $colorbl;
+    font-family: 'glaho';
   }
   h3{
     font-size: $fonts18;
     text-align: center;
     margin-bottom: 15px;
     color: $colorbl;
+    font-family: 'glaho';
 
   }
   p {
@@ -112,6 +116,7 @@ nav a:hover {
     text-align: center;
     margin-top: 15px;
     color: $colorgrey;
+    font-family: 'ninof';
   }
   img {
     height: 90px;
@@ -162,13 +167,14 @@ nav a:hover {
 }
 
 #works{
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   h2 {
     font-size: $fonts24;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 15px;
     color: $colorbl;
+    font-family: 'glaho';
   }
   img{
     width: 362px;
@@ -178,9 +184,53 @@ nav a:hover {
 
 }
 
-#aboutus .centerdiv{
+#aboutus {
+  background-color: #F1F1F1;
+  height: 490px;
   img {
     width: 370px;
     height: 330px;
+    margin-top: 60px;
   }
+  aside {
+    display: inline-block;
+    p {
+      font-size: $fonts16;
+      color: $colorgrey;
+      margin-bottom: 30px;
+      font-family: 'ninof';
+    }
+  }
+}
+
+.artwork{
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+.aboutusaside {
+width: 550px;
+h2 {
+  font-size: $fonts24;
+  padding-top: 60px;
+  padding-bottom: 15px;
+  color: $colorbl;
+  font-family: 'glaho';
+}
+.lineus{
+  height: 2px;
+  width: 93px;
+  background: $colorbl;
+  margin-bottom: 60px;
+}
 }
