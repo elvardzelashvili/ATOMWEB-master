@@ -1,7 +1,9 @@
 // colors
-$colorbl: #0000;
-$colorwhite: #FFFFFF;
-
+$colorbl: black;
+$colorwhite: white;
+$colorhover: #B8EDF8;
+$colorgrey: #666666;
+$colorblue: #B8EDF8;
 // color rgba 
 $colorrgbahover: rgba( 62, 198, 255, 0.7);
 $colorrgbabg: rgba( 255, 255, 255, 0.7);
@@ -10,7 +12,9 @@ $colorrgbainputsection: rgba(134, 134, 134, 0.6);
 
 
 // fonts
-
+$fonts14: 14px;
+$fonts16: 16px;
+$fonts18: 18px;
 $fonts20: 20px;
 $fonts24: 24px;
 $fonts30: 30px;
@@ -24,7 +28,7 @@ $fonts40: 40px;
 // width percent
 $width70: 70%;
 $width80: 80%;
-$width95:95%;
+$width95: 95%;
 $width100:100%;
 // text-align
 $text-alignc: center;

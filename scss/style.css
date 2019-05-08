@@ -81,87 +81,18 @@ button {
           box-sizing: border-box;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+.centerdiv {
+  margin: auto;
+  max-width: 1200px;
 }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
+.maincontainer {
+  width: 100%;
 }
 
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after {
-  content: '';
-  content: none;
-}
-
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
-  background-color: transparent;
-  outline: none;
-  border: 0;
-  cursor: pointer;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-@font-face {
-  font-family: 'glaho';
-  src: url(../fonts/BPGGlahoWEBCaps.ttf);
-  src: url(../fonts/BPGGlahoWEBCaps.eot);
-  src: url(../fonts/BPGGlahoWEBCaps.woff);
-  src: url(../fonts/BPGGlahoWEBCaps.woff2);
-}
-
-@font-face {
-  font-family: 'nino';
-  src: url(../fonts/BPGNinoMkhedruliBook.ttf);
-  src: url(../fonts/BPGNinoMkhedruliBook.eot);
-  src: url(../fonts/BPGNinoMkhedruliBook.woff);
-  src: url(../BPGNinoMkhedruliBook.woff2);
+header {
+  margin: auto;
+  max-width: 1200px;
 }
 
 header, header .hdiv, header ul {
@@ -178,11 +109,6 @@ header, header .hdiv, header ul {
   align-items: center;
   -ms-flex-line-pack: center;
   align-content: center;
-}
-
-header {
-  max-width: 1200px;
-  margin: auto;
 }
 
 header {
@@ -204,7 +130,7 @@ header li {
 }
 
 nav a {
-  color: #000000;
+  color: black;
   font-size: 20px;
   font-family: 'glaho';
 }
@@ -254,7 +180,96 @@ nav a:hover {
   width: 100%;
 }
 
-#work h2 {
+#do h2 {
   font-size: 24px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 15px;
+  color: black;
+}
+
+#do h3 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: black;
+}
+
+#do p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+  color: #666666;
+}
+
+#do img {
+  height: 90px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.line {
+  height: 2px;
+  width: 93px;
+  background: black;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.worktype {
+  width: 270px;
+  height: 300px;
+  border: 1px solid #B2B2B2;
+}
+
+.worktypes, .myprojects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.lineblue {
+  height: 2px;
+  width: 25px;
+  background: #B8EDF8;
+  margin: auto;
+  margin-bottom: 45px;
+  margin-top: 15px;
+}
+
+#works {
+  margin-bottom: 60px;
+}
+
+#works h2 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 15px;
+  color: black;
+}
+
+#works img {
+  width: 362px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+#aboutus .centerdiv img {
+  width: 370px;
+  height: 330px;
 }
 /*# sourceMappingURL=style.css.map */

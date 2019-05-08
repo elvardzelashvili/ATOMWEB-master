@@ -2,10 +2,22 @@
 @import 'fonts.scss';
 @import 'reset.scss';
 @import 'mixins.scss';
-@import 'privatelements.scss';
+@import 'privateelements.scss';
 @import 'responsive.scss';
+@import 'variable.scss';
 
-
+.centerdiv{
+  margin: auto;
+  max-width: 1200px;
+}
+.maincontainer {
+  width: $width100;
+  
+}
+header {
+  margin: auto;
+  max-width: 1200px;
+}
 header, header .hdiv, header ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -28,7 +40,7 @@ header {
       align-items: center;
       margin-top: 35px;
       margin-bottom: 35px;
-      width:$width95;
+      width: $width95;
       position: relative;
         img {
             height: 30px;
@@ -39,14 +51,14 @@ header {
       } 
 
 nav a {
-      color: #000000;
+      color: $colorbl;
       font-size: $fonts20;
       font-family: 'glaho';
          }
       
 nav a:hover {
         background-color: transparent;
-        color: #B8EDF8; 
+        color: $colorhover; 
       }
 
 #topbanner {
@@ -59,7 +71,7 @@ nav a:hover {
     }
 .topbannertext {
     margin: auto;
-    color: white;
+    color: $colorwhite;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -80,21 +92,95 @@ nav a:hover {
       }
 }
    
-#work {
+#do {
   h2 {
     font-size: $fonts24;
     text-align: center;
+    padding-top: 60px;
+    padding-bottom: 15px;
+    color: $colorbl;
   }
-}
+  h3{
+    font-size: $fonts18;
+    text-align: center;
+    margin-bottom: 15px;
+    color: $colorbl;
 
-.centerdiv{
-  margin: auto;
-  max-width: 1200px;
-}
-.maincontainer {
-  width: $width100;
+  }
+  p {
+    font-size: $fonts16;
+    text-align: center;
+    margin-top: 15px;
+    color: $colorgrey;
+  }
+  img {
+    height: 90px;
+    margin-top: 30px;
+    margin-bottom:15px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+  }
   
 }
-   
+.line{
+  height: 2px;
+  width: 93px;
+  background: $colorbl;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.worktype{
+  width: 270px;
+  height: 300px;
+  border: 1px solid #B2B2B2;
+}
 
-   
+.worktypes, .myprojects{
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.lineblue{
+  height: 2px;
+  width: 25px;
+  background: $colorblue;
+  margin: auto;
+  margin-bottom: 45px;
+  margin-top: 15px;
+}
+
+#works{
+  margin-bottom: 60px;
+  h2 {
+    font-size: $fonts24;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 15px;
+    color: $colorbl;
+  }
+  img{
+    width: 362px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+}
+
+#aboutus .centerdiv{
+  img {
+    width: 370px;
+    height: 330px;
+  }
+}
