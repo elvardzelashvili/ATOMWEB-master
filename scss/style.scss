@@ -1,0 +1,100 @@
+
+@import 'fonts.scss';
+@import 'reset.scss';
+@import 'mixins.scss';
+@import 'privatelements.scss';
+@import 'responsive.scss';
+
+
+header, header .hdiv, header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+  
+
+header {
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+      align-items: center;
+      margin-top: 35px;
+      margin-bottom: 35px;
+      width:$width95;
+      position: relative;
+        img {
+            height: 30px;
+          } 
+      
+        li {
+          margin-left: 40px; }
+      } 
+
+nav a {
+      color: #000000;
+      font-size: $fonts20;
+      font-family: 'glaho';
+         }
+      
+nav a:hover {
+        background-color: transparent;
+        color: #B8EDF8; 
+      }
+
+#topbanner {
+      background-image: url("../img/header.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      width: $width100;
+      background-position: center;
+    }
+.topbannertext {
+    margin: auto;
+    color: white;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 600px;
+    align-content: center;
+    align-items: center;
+    text-align:center;
+
+      h1 {
+        font-size: $fonts40;
+        width: $width100;
+        margin-bottom: 15px;
+          }
+      h3 {
+        font-size: $fonts30;
+        width: $width100;
+        
+      }
+}
+   
+#work {
+  h2 {
+    font-size: $fonts24;
+    text-align: center;
+  }
+}
+
+.centerdiv{
+  margin: auto;
+  max-width: 1200px;
+}
+.maincontainer {
+  width: $width100;
+  
+}
+   
+
+   

@@ -1,0 +1,260 @@
+@font-face {
+  font-family: 'glaho';
+  src: url(../fonts/BPGGlahoWEBCaps.ttf);
+  src: url(../fonts/BPGGlahoWEBCaps.eot);
+  src: url(../fonts/BPGGlahoWEBCaps.woff);
+  src: url(../fonts/BPGGlahoWEBCaps.woff2);
+}
+
+@font-face {
+  font-family: 'nino';
+  src: url(../fonts/BPGNinoMkhedruliBook.ttf);
+  src: url(../fonts/BPGNinoMkhedruliBook.eot);
+  src: url(../fonts/BPGNinoMkhedruliBook.woff);
+  src: url(../BPGNinoMkhedruliBook.woff2);
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'glaho';
+  src: url(../fonts/BPGGlahoWEBCaps.ttf);
+  src: url(../fonts/BPGGlahoWEBCaps.eot);
+  src: url(../fonts/BPGGlahoWEBCaps.woff);
+  src: url(../fonts/BPGGlahoWEBCaps.woff2);
+}
+
+@font-face {
+  font-family: 'nino';
+  src: url(../fonts/BPGNinoMkhedruliBook.ttf);
+  src: url(../fonts/BPGNinoMkhedruliBook.eot);
+  src: url(../fonts/BPGNinoMkhedruliBook.woff);
+  src: url(../BPGNinoMkhedruliBook.woff2);
+}
+
+header, header .hdiv, header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+header {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 95%;
+  position: relative;
+}
+
+header img {
+  height: 30px;
+}
+
+header li {
+  margin-left: 40px;
+}
+
+nav a {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'glaho';
+}
+
+nav a:hover {
+  background-color: transparent;
+  color: #B8EDF8;
+}
+
+#topbanner {
+  background-image: url("../img/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+
+.topbannertext {
+  margin: auto;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 600px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.topbannertext h1 {
+  font-size: 40px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.topbannertext h3 {
+  font-size: 30px;
+  width: 100%;
+}
+
+#work h2 {
+  font-size: 24px;
+}
+/*# sourceMappingURL=style.css.map */

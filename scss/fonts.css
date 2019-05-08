@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'glaho';
+  src: url(../fonts/BPGGlahoWEBCaps.ttf);
+  src: url(../fonts/BPGGlahoWEBCaps.eot);
+  src: url(../fonts/BPGGlahoWEBCaps.woff);
+  src: url(../fonts/BPGGlahoWEBCaps.woff2);
+}
+
+@font-face {
+  font-family: 'nino';
+  src: url(../fonts/BPGNinoMkhedruliBook.ttf);
+  src: url(../fonts/BPGNinoMkhedruliBook.eot);
+  src: url(../fonts/BPGNinoMkhedruliBook.woff);
+  src: url(../BPGNinoMkhedruliBook.woff2);
+}
+/*# sourceMappingURL=fonts.css.map */
