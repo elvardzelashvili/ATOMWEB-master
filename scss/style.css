@@ -83,16 +83,21 @@ button {
 
 .centerdiv {
   margin: auto;
-  max-width: 1200px;
+  max-width: 1140px;
+}
+
+.centerdiv h2 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 15px;
+  color: black;
+  font-family: 'glaho';
 }
 
 .maincontainer {
+  max-width: 1366px;
   width: 100%;
-}
-
-header {
-  margin: auto;
-  max-width: 1200px;
 }
 
 header, header .hdiv, header ul {
@@ -112,32 +117,28 @@ header, header .hdiv, header ul {
 }
 
 header {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  width: 95%;
-  position: relative;
+  margin: auto;
+  max-width: 1306px;
+  height: 100px;
 }
 
 header img {
-  height: 30px;
+  height: 32px;
 }
 
 header li {
   margin-left: 40px;
 }
 
-nav a {
+header nav a {
   color: black;
   font-size: 20px;
   font-family: 'glaho';
 }
 
-nav a:hover {
+header nav a:hover {
   background-color: transparent;
-  color: #B8EDF8;
+  color: #b8edf8;
 }
 
 #topbanner {
@@ -182,15 +183,6 @@ nav a:hover {
   font-family: 'ninof';
 }
 
-#do h2 {
-  font-size: 24px;
-  text-align: center;
-  padding-top: 60px;
-  padding-bottom: 15px;
-  color: black;
-  font-family: 'glaho';
-}
-
 #do h3 {
   font-size: 18px;
   text-align: center;
@@ -204,7 +196,7 @@ nav a:hover {
   text-align: center;
   margin-top: 15px;
   color: #666666;
-  font-family: 'nino';
+  font-family: 'ninof';
 }
 
 #do img {
@@ -249,7 +241,7 @@ nav a:hover {
 .lineblue {
   height: 2px;
   width: 25px;
-  background: #B8EDF8;
+  background: #b8edf8;
   margin: auto;
   margin-bottom: 45px;
   margin-top: 15px;
@@ -257,15 +249,6 @@ nav a:hover {
 
 #works {
   margin-bottom: 40px;
-}
-
-#works h2 {
-  font-size: 24px;
-  text-align: center;
-  padding-top: 60px;
-  padding-bottom: 15px;
-  color: black;
-  font-family: 'glaho';
 }
 
 #works img {
@@ -317,11 +300,7 @@ nav a:hover {
 }
 
 .aboutusaside h2 {
-  font-size: 24px;
-  padding-top: 60px;
-  padding-bottom: 15px;
-  color: black;
-  font-family: 'glaho';
+  text-align: left;
 }
 
 .aboutusaside .lineus {
@@ -329,5 +308,116 @@ nav a:hover {
   width: 93px;
   background: black;
   margin-bottom: 60px;
+}
+
+#contact {
+  background: #b8edf8;
+  height: 536px;
+}
+
+#contact .inputsection {
+  width: 535px;
+  height: 35px;
+  margin: auto;
+  font-size: 14px;
+  padding-left: 25px;
+  color: #989898;
+  font-family: 'nino';
+  border: 1px solid #333333;
+  background: none;
+  outline: none;
+  margin-bottom: 20px;
+  display: block;
+}
+
+#contact .message {
+  height: 114px;
+  font-size: 14px;
+  padding-left: 25px;
+  margin: auto;
+  margin-bottom: 20px;
+  color: #989898;
+  border: 1px solid #333333;
+  font-family: 'nino';
+  width: 535px;
+  outline: none;
+  background: none;
+  display: block;
+  margin: auto;
+}
+
+#contact .inputp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 535px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#contact p {
+  text-align: left;
+  font-size: 14px;
+  color: #666666;
+  font-family: 'nino';
+  background: none;
+}
+
+#contact .inputsubmits {
+  background-color: white;
+  color: #7ec4ce;
+  border: 1px solid #7ec4ce;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  font-family: 'glaho';
+  font-size: 14px;
+  outline: none;
+  padding: 0px;
+}
+
+footer {
+  background: #313332;
+}
+
+footer .footercenter {
+  margin-left: 35px;
+  margin-right: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 100px;
+}
+
+footer p {
+  text-align: left;
+  font-size: 14px;
+  color: white;
+  font-family: 'nino';
+  background: none;
+}
+
+footer img {
+  height: 32px;
 }
 /*# sourceMappingURL=style.css.map */

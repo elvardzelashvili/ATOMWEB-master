@@ -1,15 +1,10 @@
 // colors
-$colorbl: black;
-$colorwhite: white;
-$colorhover: #B8EDF8;
-$colorgrey: #666666;
-$colorblue: #B8EDF8;
-// color rgba 
-$colorrgbahover: rgba( 62, 198, 255, 0.7);
-$colorrgbabg: rgba( 255, 255, 255, 0.7);
-$colorrgbabginput: rgba(134, 134, 134, 0.4);
-$colorrgbainputsection: rgba(134, 134, 134, 0.6);
-
+$colorbl: rgb(0,0,0);
+$colorwhite: rgb(255,255,255);
+$colorhover: rgb(184,237,248);
+$colorgrey: rgb(102,102,102);
+$colorbutton: rgb(126, 196, 206);
+$colorfooter: rgb(49, 51, 50);
 
 // fonts
 $fonts14: 14px;
@@ -20,10 +15,6 @@ $fonts24: 24px;
 $fonts30: 30px;
 $fonts40: 40px;
 
-
-// // border 
-// $borderr7:7px;
-// $borderr10:10px;
 
 // width percent
 $width70: 70%;

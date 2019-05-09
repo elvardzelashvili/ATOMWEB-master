@@ -8,77 +8,80 @@
 
 .centerdiv{
   margin: auto;
-  max-width: 1200px;
+  max-width: 1140px;
+
+    h2 {
+        font-size: $fonts24;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 15px;
+        color: $colorbl;
+        font-family: 'glaho';
+    }
 }
 .maincontainer {
+  max-width: 1366px;
   width: $width100;
-  
+
 }
+
+header, header .hdiv, header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+   }
+  
 header {
   margin: auto;
-  max-width: 1200px;
-}
-header, header .hdiv, header ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-line-pack: center;
-    align-content: center; }
+  max-width: 1306px;
+  height: 100px;
   
-
-header {
-       -webkit-box-align: center;
-       -ms-flex-align: center;
-      align-items: center;
-      margin-top: 35px;
-      margin-bottom: 35px;
-      width: $width95;
-      position: relative;
-        img {
-            height: 30px;
+      img {
+        height: 32px;
           } 
-      
-        li {
-          margin-left: 40px; }
-      } 
+      li {
+        margin-left: 40px; 
+        }
 
-nav a {
-      color: $colorbl;
-      font-size: $fonts20;
-      font-family: 'glaho';
-         }
+      nav a {
+        color: $colorbl;
+        font-size: $fonts20;
+        font-family: 'glaho';
+            }
       
-nav a:hover {
+      nav a:hover {
         background-color: transparent;
         color: $colorhover; 
       }
-
+    }
 #topbanner {
-      background-image: url("../img/header.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 600px;
-      width: $width100;
-      background-position: center;
+  background-image: url("../img/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: $width100;
+  background-position: center;
     }
 .topbannertext {
-    margin: auto;
-    color: $colorwhite;
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 600px;
-    align-content: center;
-    align-items: center;
-    text-align:center;
+  margin: auto;
+  color: $colorwhite;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 600px;
+  align-content: center;
+  align-items: center;
+  text-align:center;
 
       h1 {
         font-size: $fonts40;
@@ -95,37 +98,30 @@ nav a:hover {
 }
    
 #do {
-  h2 {
-    font-size: $fonts24;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 15px;
-    color: $colorbl;
-    font-family: 'glaho';
-  }
-  h3{
-    font-size: $fonts18;
-    text-align: center;
-    margin-bottom: 15px;
-    color: $colorbl;
-    font-family: 'glaho';
+  
+      h3{
+        font-size: $fonts18;
+        text-align: center;
+        margin-bottom: 15px;
+        color: $colorbl;
+        font-family: 'glaho';
 
-  }
-  p {
-    font-size: $fonts16;
-    text-align: center;
-    margin-top: 15px;
-    color: $colorgrey;
-    font-family: 'ninof';
-  }
-  img {
-    height: 90px;
-    margin-top: 30px;
-    margin-bottom:15px;
-    margin-left:auto;
-    margin-right:auto;
-    display: block;
-  }
+      }
+      p {
+        font-size: $fonts16;
+        text-align: center;
+        margin-top: 15px;
+        color: $colorgrey;
+        font-family: 'ninof';
+      }
+      img {
+        height: 90px;
+        margin-top: 30px;
+        margin-bottom:15px;
+        margin-left:auto;
+        margin-right:auto;
+        display: block;
+      }
   
 }
 .line{
@@ -160,7 +156,7 @@ nav a:hover {
 .lineblue{
   height: 2px;
   width: 25px;
-  background: $colorblue;
+  background: $colorhover;
   margin: auto;
   margin-bottom: 45px;
   margin-top: 15px;
@@ -168,69 +164,149 @@ nav a:hover {
 
 #works{
   margin-bottom: 40px;
-  h2 {
-    font-size: $fonts24;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 15px;
-    color: $colorbl;
-    font-family: 'glaho';
-  }
-  img{
-    width: 362px;
-    height: 200px;
-    margin-bottom: 20px;
-  }
+  
+    img{
+      width: 362px;
+      height: 200px;
+      margin-bottom: 20px;
+    }
 
 }
 
 #aboutus {
   background-color: #F1F1F1;
   height: 490px;
-  img {
-    width: 370px;
-    height: 330px;
-    margin-top: 60px;
-  }
-  aside {
-    display: inline-block;
-    p {
-      font-size: $fonts16;
-      color: $colorgrey;
-      margin-bottom: 30px;
-      font-family: 'ninof';
-    }
+      img {
+        width: 370px;
+        height: 330px;
+        margin-top: 60px;
+      }
+      aside {
+        display: inline-block;
+      p {
+          font-size: $fonts16;
+          color: $colorgrey;
+          margin-bottom: 30px;
+          font-family: 'ninof';
+        }
   }
 }
 
 .artwork{
   display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
 }
 .aboutusaside {
-width: 550px;
-h2 {
-  font-size: $fonts24;
-  padding-top: 60px;
-  padding-bottom: 15px;
-  color: $colorbl;
-  font-family: 'glaho';
+  width: 550px;
+      h2 {
+        text-align: left;
+      }
+
+      .lineus{
+        height: 2px;
+        width: 93px;
+        background: $colorbl;
+        margin-bottom: 60px;
+      }
 }
-.lineus{
-  height: 2px;
-  width: 93px;
-  background: $colorbl;
-  margin-bottom: 60px;
+
+#contact{
+  background: $colorhover;
+  height: 536px;
+      
+     .inputsection {
+        width: 535px;
+        height: 35px;
+        margin:auto;
+        font-size: $fonts14;
+        padding-left: 25px;
+        color: #989898;
+        font-family: 'nino';   
+        border: 1px solid #333333;
+        background: none; 
+        outline: none;
+        margin-bottom: 20px;
+        display:block;
+      }
+     .message {
+        height: 114px;
+        font-size: $fonts14;
+        padding-left: 25px;
+        margin:auto;
+        margin-bottom: 20px;
+        color: #989898;
+        border: 1px solid #333333;
+        font-family: 'nino'; 
+        width: 535px;
+        outline: none; 
+        background: none;
+        display:block;
+        margin: auto;
+
+    }
+     .inputp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        width: 535px;
+        margin: auto;
+        margin-top: 15px;
+        }
+    p{
+        text-align: left;
+        font-size: $fonts14;
+        color: $colorgrey;
+        font-family: 'nino';   
+        background: none; 
+    }
+    .inputsubmits {
+        background-color: $colorwhite;
+        color: $colorbutton;
+        border: 1px solid $colorbutton;
+        height: 30px;
+        width: 80px;
+        text-align: center;
+        font-family: 'glaho';
+        font-size: $fonts14;
+        outline: none;
+        padding: 0px;
+            }
 }
+
+footer {
+  background: $colorfooter;
+      .footercenter{
+          margin-left: 35px;
+          margin-right: 35px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          align-content: center;
+          height: 100px;
+      }
+      p {
+        text-align: left;
+        font-size: $fonts14;
+        color: $colorwhite;
+        font-family: 'nino';   
+        background: none;
+}
+      img {
+        height: 32px;
+    }
+
 }
