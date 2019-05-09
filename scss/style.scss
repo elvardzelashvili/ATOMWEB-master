@@ -163,16 +163,58 @@ header {
 }
 
 #works{
-  margin-bottom: 40px;
-  
-    img{
-      width: 362px;
-      height: 200px;
-      margin-bottom: 20px;
-    }
-
+  margin-bottom: 40px;   
 }
 
+
+.myproject{
+  width: 362px;
+  position: relative;
+  p {
+ position: absolute;
+  font-family: 'glaho';
+  font-size: $fonts18;
+    text-align: center;
+    color: $colorwhite;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+}
+.hovercontainer{
+  position: relative;
+}
+.imgh{
+  width: 362px;
+  height: 200px;
+  margin-bottom: 20px;
+  display: block;
+}
+.hoverimg {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 30%;
+  top: 30%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #B8EDF8;
+}
+.overlay:hover {
+ opacity: 0.9;   
+}
 #aboutus {
   background-color: #F1F1F1;
   height: 490px;
