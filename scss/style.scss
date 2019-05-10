@@ -232,10 +232,7 @@ header {
         width: 370px;
         height: 330px;
         margin-top: 60px;
-      }
-      img:hover {
         box-shadow: 30px 30px 0px 0px rgba(184,237,248,1);
-
       }
       aside 
       {
@@ -288,9 +285,9 @@ header {
         margin:auto;
         font-size: $fonts14;
         padding-left: 25px;
-        color: #989898;
+        color: $colorg;
         font-family: 'nino';   
-        border: 1px solid #333333;
+        border: 1px solid $colorginputborder;
         background: none; 
         outline: none;
         margin-bottom: 20px;
@@ -302,15 +299,15 @@ header {
         padding-left: 25px;
         margin:auto;
         margin-bottom: 20px;
-        color: #989898;
-        border: 1px solid #333333;
+        color: $colorg;
+        border: 1px solid $colorginputborder;
         font-family: 'nino'; 
         width: 535px;
         outline: none; 
         background: none;
         display:block;
-        margin: auto;
-
+        padding-top: 10px;
+        
     }
      .inputp {
         display: flex;
@@ -332,7 +329,6 @@ header {
     .inputsubmits {
         background-color: $colorbutton;
         color: $colorwhite;
-        border: 1px solid $colorbutton;
         height: 30px;
         width: 80px;
         text-align: center;
@@ -345,13 +341,7 @@ header {
       background-color: $colorwhite;
       color: $colorbutton;
       border: 1px solid $colorbutton;
-      height: 30px;
-      width: 80px;
-      text-align: center;
-      font-family: 'glaho';
-      font-size: $fonts14;
-      outline: none;
-      padding: 0px;
+      
           }        
 }
 
