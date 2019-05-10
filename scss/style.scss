@@ -170,34 +170,44 @@ header {
 .myproject{
   width: 362px;
   position: relative;
+  height: 200px;
+  margin-bottom: 26px;
+
+  }
+.overlay {
   p {
- position: absolute;
-  font-family: 'glaho';
-  font-size: $fonts18;
+    position: absolute;
+    font-family: 'glaho';
+    font-size: $fonts18;
     text-align: center;
     color: $colorwhite;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    bottom: 55px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 362px;;
+  }
+  .hoverimg {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 44%;
+    top: 70px;
+    margin-bottom: 13px;
   }
 }
 .hovercontainer{
   position: relative;
+  height: 200px;
+  margin-bottom: 20px;
 }
+
 .imgh{
   width: 362px;
   height: 200px;
-  margin-bottom: 20px;
   display: block;
-}
-.hoverimg {
-  position: absolute;
-  width: 44px;
-  height: 44px;
-  left: 30%;
-  top: 30%;
+  border: 2px solid $colorhover;
 }
 
 .overlay {
@@ -209,7 +219,7 @@ header {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: .4s ease;
   background-color: #B8EDF8;
 }
 .overlay:hover {
@@ -223,7 +233,12 @@ header {
         height: 330px;
         margin-top: 60px;
       }
-      aside {
+      img:hover {
+        box-shadow: 30px 30px 0px 0px rgba(184,237,248,1);
+
+      }
+      aside 
+      {
         display: inline-block;
       p {
           font-size: $fonts16;

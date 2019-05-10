@@ -254,37 +254,43 @@ header nav a:hover {
 .myproject {
   width: 362px;
   position: relative;
+  height: 200px;
+  margin-bottom: 26px;
 }
 
-.myproject p {
+.overlay p {
   position: absolute;
   font-family: 'glaho';
   font-size: 18px;
   text-align: center;
   color: white;
-  top: 50%;
+  bottom: 55px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  width: 362px;
+}
+
+.overlay .hoverimg {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 44%;
+  top: 70px;
+  margin-bottom: 13px;
 }
 
 .hovercontainer {
   position: relative;
+  height: 200px;
+  margin-bottom: 20px;
 }
 
 .imgh {
   width: 362px;
   height: 200px;
-  margin-bottom: 20px;
   display: block;
-}
-
-.hoverimg {
-  position: absolute;
-  width: 44px;
-  height: 44px;
-  left: 30%;
-  top: 30%;
+  border: 2px solid #b8edf8;
 }
 
 .overlay {
@@ -296,8 +302,8 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   opacity: 0;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
   background-color: #B8EDF8;
 }
 
@@ -314,6 +320,11 @@ header nav a:hover {
   width: 370px;
   height: 330px;
   margin-top: 60px;
+}
+
+#aboutus img:hover {
+  -webkit-box-shadow: 30px 30px 0px 0px #b8edf8;
+          box-shadow: 30px 30px 0px 0px #b8edf8;
 }
 
 #aboutus aside {
