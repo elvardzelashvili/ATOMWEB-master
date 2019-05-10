@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=responsive.css.map */
+@media only screen and (max-width: 992px) {
+  header img {
+    padding-left: 30px;
+  }
+  header nav {
+    display: none;
+  }
+  header .burger {
+    display: block;
+    margin-right: 20px;
+  }
+  header .hdiv {
+    margin-right: 30px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

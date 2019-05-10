@@ -3,7 +3,6 @@
 @import 'reset.scss';
 @import 'mixins.scss';
 @import 'privateelements.scss';
-@import 'responsive.scss';
 @import 'variable.scss';
 
 .centerdiv{
@@ -22,10 +21,9 @@
 .maincontainer {
   max-width: 1366px;
   width: $width100;
-
 }
 
-header, header .hdiv, header ul {
+header,.hdiv, header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,6 +60,10 @@ header {
       nav a:hover {
         background-color: transparent;
         color: $colorhover; 
+      }
+      .burger {
+        display: none;
+        height: 27px;
       }
     }
 #topbanner {
@@ -336,11 +338,13 @@ header {
         font-size: $fonts14;
         outline: none;
         padding: 0px;
+        border: none;
             }
     .inputsubmits:hover {
       background-color: $colorwhite;
       color: $colorbutton;
       border: 1px solid $colorbutton;
+      outline: none;
       
           }        
 }
@@ -369,3 +373,6 @@ footer {
     }
 
 }
+
+
+@import 'responsive.scss';
