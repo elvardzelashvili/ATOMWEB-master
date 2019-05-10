@@ -330,8 +330,8 @@ header {
         background: none; 
     }
     .inputsubmits {
-        background-color: $colorwhite;
-        color: $colorbutton;
+        background-color: $colorbutton;
+        color: $colorwhite;
         border: 1px solid $colorbutton;
         height: 30px;
         width: 80px;
@@ -341,6 +341,18 @@ header {
         outline: none;
         padding: 0px;
             }
+    .inputsubmits:hover {
+      background-color: $colorwhite;
+      color: $colorbutton;
+      border: 1px solid $colorbutton;
+      height: 30px;
+      width: 80px;
+      text-align: center;
+      font-family: 'glaho';
+      font-size: $fonts14;
+      outline: none;
+      padding: 0px;
+          }        
 }
 
 footer {

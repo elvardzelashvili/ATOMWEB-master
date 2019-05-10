@@ -433,6 +433,19 @@ header nav a:hover {
 }
 
 #contact .inputsubmits {
+  background-color: #7ec4ce;
+  color: white;
+  border: 1px solid #7ec4ce;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  font-family: 'glaho';
+  font-size: 14px;
+  outline: none;
+  padding: 0px;
+}
+
+#contact .inputsubmits:hover {
   background-color: white;
   color: #7ec4ce;
   border: 1px solid #7ec4ce;
