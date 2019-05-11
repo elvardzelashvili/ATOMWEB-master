@@ -317,13 +317,13 @@ header .burger {
 
 #aboutus {
   background-color: #F1F1F1;
-  height: 490px;
 }
 
 #aboutus .artist {
   width: 370px;
   height: 330px;
   margin-top: 60px;
+  margin-bottom: 100px;
 }
 
 #aboutus img {
@@ -558,6 +558,28 @@ footer img {
   .worktype {
     width: 335px;
     height: 296px;
+  }
+  .centerdivresp {
+    width: 708px;
+  }
+  .imgh, .myproject {
+    width: 335px;
+    height: 180px;
+  }
+  #aboutus p {
+    font-size: 14px;
+  }
+  #aboutus .artist {
+    width: 647px;
+    height: 577px;
+    margin-bottom: 70px;
+  }
+  #aboutus img {
+    -webkit-box-shadow: 50px 50px 0px 0px #b8edf8;
+            box-shadow: 50px 50px 0px 0px #b8edf8;
+  }
+  .aboutusaside {
+    padding-top: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */

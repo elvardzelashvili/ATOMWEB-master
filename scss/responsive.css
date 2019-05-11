@@ -69,7 +69,49 @@
     height: 296px;
   }
   .centerdivresp {
-    width: 768px;
+    width: 708px;
   }
+  .imgh, .myproject {
+    width: 335px;
+    height: 180px;
+  }
+  #aboutus .artist {
+    width: 647px;
+    height: 577px;
+    margin-bottom: 70px;
+  }
+  #aboutus img {
+    -webkit-box-shadow: 50px 50px 0px 0px #b8edf8;
+            box-shadow: 50px 50px 0px 0px #b8edf8;
+  }
+  .aboutusaside {
+    padding-top: 0px;
+    width: 690px;
+  }
+  .aboutusaside .lineus {
+    margin-bottom: 20px;
+  }
+  aside p {
+    font-size: 14px;
+  }
+}
+
+#contact {
+  background: #b8edf8;
+  height: 636px;
+}
+
+#contact .inputsection {
+  width: 690px;
+  height: 40px;
+}
+
+#contact .message {
+  height: 109px;
+  width: 690px;
+}
+
+#contact .inputp {
+  width: 690px;
 }
 /*# sourceMappingURL=responsive.css.map */
