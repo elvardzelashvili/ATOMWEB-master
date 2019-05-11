@@ -1,6 +1,10 @@
 
 @media only screen and (max-width: 992px) 
   {  
+    .maincontainer {
+        max-width: 992px;
+        margin: auto;
+      }
   header {
       img {
           padding-left: 30px;
@@ -18,11 +22,11 @@
           margin-right: 30px;
       }
 }
-.centerdiv{
-    max-width: 992px;
+.centerdivresp {
+    width: 932px;
 }
 .worktype {
-    width: 450px;
+    width: 451px;
     height: 296px;
     margin-bottom: 30px;
 }
@@ -32,8 +36,23 @@
     
 }
 .imgh, .myproject{
-    width: 450px;
+    width: 451px;
     height: 250px;
+}
+.worktypes, .myprojects
+ {justify-content: space-evenly;}
+ .hovercontainer {
+     height: 250px;
+ }
+.artist {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#aboutus aside {
+   width: 44%; 
+   margin-left: 30px;
+   margin-right: 30px;
+
 }
 #contact {
    .inputsection, .message{

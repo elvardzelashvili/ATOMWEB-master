@@ -48,7 +48,7 @@ header {
         height: 32px;
           } 
       li {
-        margin-left: 40px; 
+        margin-left: 30px; 
         }
 
       nav a {
@@ -173,7 +173,7 @@ header {
   width: 362px;
   position: relative;
   height: 200px;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 
   }
 .overlay {
@@ -230,10 +230,13 @@ header {
 #aboutus {
   background-color: #F1F1F1;
   height: 490px;
+  .artist {
+    width: 370px;
+    height: 330px;
+    margin-top: 60px;
+  }
       img {
-        width: 370px;
-        height: 330px;
-        margin-top: 60px;
+        width: 100%;
         box-shadow: 30px 30px 0px 0px rgba(184,237,248,1);
       }
       aside 
@@ -242,8 +245,8 @@ header {
       p {
           font-size: $fonts16;
           color: $colorgrey;
-          margin-bottom: 30px;
           font-family: 'ninof';
+          padding-top: 20px;
         }
   }
 }
@@ -273,7 +276,7 @@ header {
         height: 2px;
         width: 93px;
         background: $colorbl;
-        margin-bottom: 60px;
+        margin-bottom:40px;
       }
 }
 
