@@ -136,7 +136,8 @@ header {
         
       }
 }
-   
+      // banner section  end
+ 
 #do {
   
       h3{
@@ -177,7 +178,7 @@ header {
   border: 1px solid #B2B2B2;
 }
 
-.worktypes, .myprojects{
+.worktypes{
   display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -192,7 +193,20 @@ header {
     -ms-flex-line-pack: center;
     align-content: center;
 }
-
+.myprojects {display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
 .lineblue{
   height: 2px;
   width: 25px;
@@ -407,6 +421,7 @@ footer {
         color: $colorwhite;
         font-family: 'nino';   
         background: none;
+        width: 360px;
 }
       img {
         height: 32px;

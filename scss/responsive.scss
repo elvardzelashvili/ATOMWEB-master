@@ -1,4 +1,15 @@
 
+@media only screen and (max-width: 1125px) 
+{  
+    .worktype {
+        width: 22%;
+        
+    }
+    .myproject{
+        width: 30%;
+     
+    }
+    }
 @media only screen and (max-width: 992px) 
   {  
     .maincontainer {
@@ -128,20 +139,20 @@
         img {
             box-shadow: 50px 50px 0px 0px rgba(184,237,248,1);
         }
+        aside p{
+            font-size: 14px;
+            width: 690px;
+       
+            }
     }
     
     .aboutusaside {
         padding-top: 0px;
         width: 690px;
         .lineus {
-            margin-bottom: 20px;
-        }
+            margin-bottom: 20px;        }
             }
 
-    aside p{
-        font-size: 14px;
-
-        }
     
     }
 
@@ -205,6 +216,11 @@
          aside {
              padding-bottom: 60px;
          }
+         aside p{
+            font-size: 14px;
+            width: 450px;
+    
+            }
     .artist {
         width: 478px;
         height: 426px;
@@ -228,11 +244,7 @@
         }
             }
 
-    aside p{
-        font-size: 14px;
-        width: 450px;
-
-        }
+    
     
     }
 
@@ -253,10 +265,80 @@
               }
             }
     .footercenter{
-                flex-wrap: nowrap;
-                p {
-                    width: 240px;
-                }    
-              }
-                    
+        flex-wrap: nowrap;
+    }
+    footer p {
+        width: 250px;
+    }    
+
+                              
+@media only screen and (max-width: 480px) 
+{
+    header {
+        width: 95%;
+    }
+
+    .topbannertext h1 {
+        font-size: 20px;
+    }
+    .topbannertext h3 {
+        font-size: 18px;
+    }
+
+    .centerdivresp {
+        width: 360px;
+    }
+    #do p {
+        width: 300px;
+    }
+    .worktype {
+        width: 300px;
+         }
+    .imgh, .myproject {
+        width: 300px;
+    }
+    #aboutus {
+        aside {
+            padding-bottom: 60px;
+        }
+            aside p{
+            font-size: 14px;
+            width: 250px;
     
+            }
+        }
+    .centerdiv{
+        max-width: 360px;
+    }   
+    #aboutus .artist {
+        width: 250px;
+        height: 250px;
+        margin: 60px 0px 60px 0px;
+
+        img {
+            box-shadow: 10px 10px 0px 0px #b8edf8;
+           }
+    }
+
+    #contact .inputsection {
+          width: 95%;
+    }
+    #contact .message {
+        width: 95%;
+    }
+    #contact .inputp {
+        width: 95%;
+    }
+
+    footer img {
+        height: 20px;
+    } 
+
+    .footercenter{
+        flex-wrap: nowrap;}
+        footer p {
+            width: 210px;
+        }    
+             
+    
+}
