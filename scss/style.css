@@ -96,8 +96,8 @@ button {
 }
 
 .maincontainer {
-  max-width: 1366px;
   width: 100%;
+  margin: auto;
 }
 
 header, .hdiv, header ul {
@@ -235,7 +235,7 @@ header .burger {
   flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-around;
+  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -269,7 +269,7 @@ header .burger {
   font-size: 18px;
   text-align: center;
   color: white;
-  bottom: 55px;
+  bottom: 53px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -282,7 +282,7 @@ header .burger {
   height: 44px;
   left: 44%;
   top: 70px;
-  margin-bottom: 13px;
+  margin-bottom: 15px;
 }
 
 .hovercontainer {
@@ -292,8 +292,7 @@ header .burger {
 }
 
 .imgh {
-  width: 362px;
-  height: 200px;
+  width: 364px;
   display: block;
   border: 2px solid #b8edf8;
 }
@@ -328,7 +327,7 @@ header .burger {
 }
 
 #aboutus img {
-  width: 100%;
+  height: 100%;
   -webkit-box-shadow: 30px 30px 0px 0px #b8edf8;
           box-shadow: 30px 30px 0px 0px #b8edf8;
 }
@@ -353,19 +352,16 @@ header .burger {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
 }
 
 .aboutusaside {
   width: 550px;
+  padding-top: 60px;
 }
 
 .aboutusaside h2 {
   text-align: left;
+  padding-top: 0px;
 }
 
 .aboutusaside .lineus {
@@ -523,17 +519,22 @@ footer img {
     height: 74px;
     width: 47px;
   }
+  #do p {
+    width: 200px;
+    margin: auto;
+  }
   .imgh, .myproject {
     width: 451px;
     height: 250px;
   }
-  .worktypes, .myprojects {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
   .hovercontainer {
     height: 250px;
+  }
+  .overlay p {
+    bottom: 75px;
+  }
+  .overlay .hoverimg {
+    top: 90px;
   }
   .artist {
     margin-right: 30px;
@@ -546,6 +547,17 @@ footer img {
   }
   #contact .inputsection, #contact .message {
     width: 555px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .maincontainer {
+    max-width: 992px;
+    margin: auto;
+  }
+  .worktype {
+    width: 335px;
+    height: 296px;
   }
 }
 /*# sourceMappingURL=style.css.map */

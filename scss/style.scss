@@ -19,8 +19,8 @@
     }
 }
 .maincontainer {
-  max-width: 1366px;
   width: $width100;
+  margin:auto;
 }
 
 header,.hdiv, header ul {
@@ -147,7 +147,7 @@ header {
     flex-wrap: wrap;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-around;
+    justify-content: space-between;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -183,7 +183,7 @@ header {
     font-size: $fonts18;
     text-align: center;
     color: $colorwhite;
-    bottom: 55px;
+    bottom: 53px;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -196,7 +196,7 @@ header {
     height: 44px;
     left: 44%;
     top: 70px;
-    margin-bottom: 13px;
+    margin-bottom: 15px;
   }
 }
 .hovercontainer{
@@ -206,8 +206,8 @@ header {
 }
 
 .imgh{
-  width: 362px;
-  height: 200px;
+  
+  width: 364px;
   display: block;
   border: 2px solid $colorhover;
 }
@@ -236,7 +236,7 @@ header {
     margin-top: 60px;
   }
       img {
-        width: 100%;
+        height: 100%;
         box-shadow: 30px 30px 0px 0px rgba(184,237,248,1);
       }
       aside 
@@ -260,16 +260,14 @@ header {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
+
 }
 .aboutusaside {
   width: 550px;
+  padding-top: 60px;
       h2 {
         text-align: left;
+        padding-top: 0px;
       }
 
       .lineus{

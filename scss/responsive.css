@@ -28,17 +28,22 @@
     height: 74px;
     width: 47px;
   }
+  #do p {
+    width: 200px;
+    margin: auto;
+  }
   .imgh, .myproject {
     width: 451px;
     height: 250px;
   }
-  .worktypes, .myprojects {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
   .hovercontainer {
     height: 250px;
+  }
+  .overlay p {
+    bottom: 75px;
+  }
+  .overlay .hoverimg {
+    top: 90px;
   }
   .artist {
     margin-right: 30px;
@@ -51,6 +56,20 @@
   }
   #contact .inputsection, #contact .message {
     width: 555px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .maincontainer {
+    max-width: 992px;
+    margin: auto;
+  }
+  .worktype {
+    width: 335px;
+    height: 296px;
+  }
+  .centerdivresp {
+    width: 768px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
