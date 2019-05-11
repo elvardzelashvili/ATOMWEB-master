@@ -22,6 +22,18 @@
           margin-right: 30px;
       }
 }
+.dropdownmenu:hover #dropdown-content{
+    display: block;
+  }
+  .dropdownmenu:hover #dropdown-content a{
+    display: block;
+  }
+  #dropdown-content {
+    width: 100%;
+    left: 0%;
+    top: 90%;
+  }
+
 .centerdivresp {
     width: 932px;
 }
@@ -190,7 +202,9 @@
         padding-top: 25px;
     }
     #aboutus {
-       
+         aside {
+             padding-bottom: 60px;
+         }
     .artist {
         width: 478px;
         height: 426px;
@@ -207,6 +221,7 @@
     }
     .aboutusaside {
         padding-top: 60px;
+        padding-bottom: 60px;
         width: 450px;
         .lineus {
             margin-bottom: 20px;
@@ -215,6 +230,7 @@
 
     aside p{
         font-size: 14px;
+        width: 450px;
 
         }
     
@@ -235,8 +251,12 @@
            .inputp {
               width: 518px;
               }
-          
-     footer p {
-         width: 240px;
-     }          
-      }
+            }
+    .footercenter{
+                flex-wrap: nowrap;
+                p {
+                    width: 240px;
+                }    
+              }
+                    
+    

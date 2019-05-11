@@ -16,6 +16,17 @@
   header .hdiv {
     margin-right: 30px;
   }
+  .dropdownmenu:hover #dropdown-content {
+    display: block;
+  }
+  .dropdownmenu:hover #dropdown-content a {
+    display: block;
+  }
+  #dropdown-content {
+    width: 100%;
+    left: 0%;
+    top: 90%;
+  }
   .centerdivresp {
     width: 932px;
   }
@@ -150,6 +161,9 @@
   #works h2 {
     padding-top: 25px;
   }
+  #aboutus aside {
+    padding-bottom: 60px;
+  }
   #aboutus .artist {
     width: 478px;
     height: 426px;
@@ -165,6 +179,7 @@
   }
   .aboutusaside {
     padding-top: 60px;
+    padding-bottom: 60px;
     width: 450px;
   }
   .aboutusaside .lineus {
@@ -172,6 +187,7 @@
   }
   aside p {
     font-size: 14px;
+    width: 450px;
   }
 }
 
@@ -193,7 +209,12 @@
   width: 518px;
 }
 
-#contact footer p {
+.footercenter {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.footercenter p {
   width: 240px;
 }
 /*# sourceMappingURL=responsive.css.map */
