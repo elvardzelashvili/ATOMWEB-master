@@ -141,24 +141,48 @@ header nav a:hover {
   color: #b8edf8;
 }
 
-.dropdown {
-  overflow: hidden;
+.overlay_nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #b8edf8;
+  background-color: rgba(184, 237, 248, 0.9);
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-.dropdown .dropbtn {
-  border: 1px solid white;
-  outline: none;
-  color: white;
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.dropdown:hover {
-  display: none;
-  -webkit-transition: 3s;
-  transition: 3s;
+.overlay_nav a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  display: block;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-.dropdownmenu {
-  overflow: hidden;
+.overlay_nav a:hover, .overlay_nav a:focus {
+  color: #666666;
+}
+
+.overlay_nav .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #b8edf8;
 }
 
 .burger {
@@ -166,17 +190,8 @@ header nav a:hover {
   display: none;
 }
 
-#dropdown-content {
+#myNav {
   display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 600px;
-  z-index: 1;
-}
-
-.dropdown-content a:hover {
-  background-color: #666666;
-  color: white;
 }
 
 #topbanner {
@@ -570,7 +585,6 @@ footer img {
   }
   .myproject {
     width: 30%;
-    margin: 0px 30px 30px 0px;
   }
 }
 
@@ -592,16 +606,8 @@ footer img {
   header .hdiv {
     margin-right: 30px;
   }
-  .dropdownmenu:hover #dropdown-content {
+  #myNav {
     display: block;
-  }
-  .dropdownmenu:hover #dropdown-content a {
-    display: block;
-  }
-  #dropdown-content {
-    width: 100%;
-    left: 0%;
-    top: 90%;
   }
   .centerdivresp {
     width: 932px;
@@ -793,6 +799,16 @@ footer img {
 
 footer p {
   width: 250px;
+}
+
+.overlay_nav a {
+  font-size: 20px;
+}
+
+.overlay_nav .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
 }
 
 @media only screen and (max-width: 480px) {

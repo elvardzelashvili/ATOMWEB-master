@@ -24,7 +24,7 @@
       nav {
           display: none;
       }
-
+   
       .burger {
           display: block;
           margin-right: 20px;
@@ -33,17 +33,12 @@
           margin-right: 30px;
       }
 }
-.dropdownmenu:hover #dropdown-content{
+
+#myNav
+{
     display: block;
-  }
-  .dropdownmenu:hover #dropdown-content a{
-    display: block;
-  }
-  #dropdown-content {
-    width: 100%;
-    left: 0%;
-    top: 90%;
-  }
+}
+
 
 .centerdivresp {
     width: 932px;
@@ -269,7 +264,13 @@
     }
     footer p {
         width: 250px;
-    }    
+    }   
+    .overlay_nav a {font-size: 20px}
+    .overlay_nav .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    } 
 
                               
 @media only screen and (max-width: 480px) 

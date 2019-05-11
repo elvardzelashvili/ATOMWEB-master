@@ -38,22 +38,20 @@
             
             </nav>
             
-                <div class="dropdownmenu">
+            <div id="myNav" class="overlay_nav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+                </a>
+                <div class="overlay-content">
+                        <a href="#mainNav">მთავარი</a>
+                        <a href="#do">რას ვაკეთებ</a>
+                        <a href="#works">ნამუშევრები</a>
+                        <a href="#aboutus">ჩემ შესახებ</a>
+                        <a href="#contact">კონტაქტი</a>
                     
-                            <img class="burger" src="img/burger.svg" alt="burgermenu">
-                
-                            <div id="dropdown-content">
-                        
-                            <ul>
-                                <li><a href="#mainNav">მთავარი</a></li>
-                                <li><a href="#do">რას ვაკეთებ</a></li>
-                                <li><a href="#works">ნამუშევრები</a></li>
-                                <li><a href="#aboutus">ჩემ შესახებ</a></li>
-                                <li><a href="#contact">კონტაქტი</a></li>
-                            </ul>
-                            
-                        </div>
                 </div>
+                </div>
+        <img  onclick="openNav()" class="burger" src="img/burger.svg" alt="burgermenu"> 
+                  
                
 
     </div>
@@ -239,18 +237,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
      <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
      <!-- <script src="https://github.com/graingert/wow.git"></script> -->
-     <script src="js/wow.min.js" type="text/javascript"></script>
-    <script src="js/main.js" type="text/javascript"></script>
-<script>
-    function myFunction() {
-  var x = document.getElementById("dropdown-content");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
+     <!-- <script src="js/wow.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script> -->
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+        <!-- meniu burger end -->
     <script>
         $(window).scroll(function() {
             var height = $(window).scrollTop();
@@ -270,9 +268,9 @@
         });
     </script>
 
-    <script>
+    <!-- <script>
         new WOW().init();
-    </script>
+    </script> -->
 
     <script>
         $(window).on('beforeunload', function(){

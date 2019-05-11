@@ -65,42 +65,54 @@ header {
     }
 
     // burger start
-    
-       
-      .dropdown {
-      overflow: hidden;
-     }
-    
-      .dropdown .dropbtn {
-      border: 1px solid $colorwhite;
-      outline: none;
-      color: $colorwhite;
-     }
-     
-      .dropdown:hover  {
-      display: none;
-      transition: $transition3;
-     }
-      
-     .dropdownmenu {
-      overflow: hidden;
-      
+    .overlay_nav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: $colorhover;
+      background-color: rgba(184,237,248, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s;
     }
+    
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    .overlay_nav a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: $colorbl;
+      display: block;
+      transition: 0.4s;
+    }
+    
+    .overlay_nav a:hover, .overlay_nav a:focus {
+      color: $colorgrey;
+    }
+    
+    .overlay_nav .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+      color: $colorhover;
+    }
+       
     .burger {
       height: 27px;
-      // margin-left: 20px;
       display: none;
     }
-    #dropdown-content {
+    #myNav{
       display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 600px;
-      z-index: 1;
-    }
-    .dropdown-content a:hover {
-      background-color: $colorgrey;
-      color: $colorwhite;
     }
     // header ends
     // banner section  start
