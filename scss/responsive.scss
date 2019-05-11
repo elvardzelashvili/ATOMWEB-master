@@ -82,8 +82,16 @@
 @media only screen and (max-width: 768px) 
   {  
     .maincontainer {
-        max-width: 992px;
+        max-width: 768px;
         margin: auto;
+      }
+      .topbannertext {
+          h1 {
+              font-size: 34px;
+          }
+          h3 {
+              font-size: 28px;
+          }
       }
       .worktype {
         width: 335px;
@@ -144,4 +152,91 @@
               }
           
                
+      }
+
+
+      @media only screen and (max-width: 576px) 
+  {  
+    .maincontainer {
+        max-width: 576px;
+        margin: auto;
+      }
+      .topbannertext {
+          h1 {
+              font-size: 24px;
+          }
+          h3 {
+              font-size: 20px;
+          }
+      }
+      .worktype {
+        width: 516px;
+        height: 300px;
+        margin-bottom: 25px;
+    }
+    .centerdivresp {
+        width: 516px;
+    }
+    .imgh, .myproject {
+        width: 335px;
+        height: 180px;
+    }
+
+    #do p {
+        width: 422px;
+    }
+
+    #works h2 {
+        padding-top: 25px;
+    }
+    #aboutus {
+       
+    .artist {
+        width: 478px;
+        height: 426px;
+        margin-bottom: 60px;
+        
+    }
+        img {
+            box-shadow: 50px 50px 0px 0px rgba(184,237,248,1);
+        }
+    }
+    .imgh, .myproject {
+        width: 516px;
+        height: 286px;
+    }
+    .aboutusaside {
+        padding-top: 60px;
+        width: 450px;
+        .lineus {
+            margin-bottom: 20px;
+        }
+            }
+
+    aside p{
+        font-size: 14px;
+
+        }
+    
+    }
+
+    #contact{
+         height: 536px;
+           .inputsection {
+              width: 518px;
+              height: 40px;
+            
+            }
+           .message {
+              height: 109px;
+              width: 518px;
+              
+          }
+           .inputp {
+              width: 518px;
+              }
+          
+     footer p {
+         width: 240px;
+     }          
       }

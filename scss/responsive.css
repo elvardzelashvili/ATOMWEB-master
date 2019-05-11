@@ -61,8 +61,14 @@
 
 @media only screen and (max-width: 768px) {
   .maincontainer {
-    max-width: 992px;
+    max-width: 768px;
     margin: auto;
+  }
+  .topbannertext h1 {
+    font-size: 34px;
+  }
+  .topbannertext h3 {
+    font-size: 28px;
   }
   .worktype {
     width: 335px;
@@ -113,5 +119,81 @@
 
 #contact .inputp {
   width: 690px;
+}
+
+@media only screen and (max-width: 576px) {
+  .maincontainer {
+    max-width: 576px;
+    margin: auto;
+  }
+  .topbannertext h1 {
+    font-size: 24px;
+  }
+  .topbannertext h3 {
+    font-size: 20px;
+  }
+  .worktype {
+    width: 516px;
+    height: 300px;
+    margin-bottom: 25px;
+  }
+  .centerdivresp {
+    width: 516px;
+  }
+  .imgh, .myproject {
+    width: 335px;
+    height: 180px;
+  }
+  #do p {
+    width: 422px;
+  }
+  #works h2 {
+    padding-top: 25px;
+  }
+  #aboutus .artist {
+    width: 478px;
+    height: 426px;
+    margin-bottom: 60px;
+  }
+  #aboutus img {
+    -webkit-box-shadow: 50px 50px 0px 0px #b8edf8;
+            box-shadow: 50px 50px 0px 0px #b8edf8;
+  }
+  .imgh, .myproject {
+    width: 516px;
+    height: 286px;
+  }
+  .aboutusaside {
+    padding-top: 60px;
+    width: 450px;
+  }
+  .aboutusaside .lineus {
+    margin-bottom: 20px;
+  }
+  aside p {
+    font-size: 14px;
+  }
+}
+
+#contact {
+  height: 536px;
+}
+
+#contact .inputsection {
+  width: 518px;
+  height: 40px;
+}
+
+#contact .message {
+  height: 109px;
+  width: 518px;
+}
+
+#contact .inputp {
+  width: 518px;
+}
+
+#contact footer p {
+  width: 240px;
 }
 /*# sourceMappingURL=responsive.css.map */
