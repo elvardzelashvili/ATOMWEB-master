@@ -503,5 +503,20 @@ footer img {
   header .hdiv {
     margin-right: 30px;
   }
+  .worktype {
+    width: 450px;
+    height: 296px;
+  }
+  #do img {
+    height: 74px;
+    width: 47px;
+  }
+  .imgh, .myproject {
+    height: 450;
+    width: 250px;
+  }
+  #contact .inputsection, #contact .message {
+    width: 555px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
