@@ -38,8 +38,14 @@
 {
     display: block;
 }
-
-
+.overlay_nav a {
+    padding-top: 36px;}
+.overlay_nav a:hover {
+color: rgb(184,237,248);
+}
+.overlay_nav {
+    font-size: 60px;
+}
 .centerdivresp {
     width: 932px;
 }
@@ -265,9 +271,12 @@
     footer p {
         width: 250px;
     }   
+    .overlay_nav a {
+        padding-top: 36px;
+        font-size: 24px;}
     .overlay_nav a {font-size: 20px}
     .overlay_nav .closebtn {
-    font-size: 40px;
+    
     top: 15px;
     right: 35px;
     } 

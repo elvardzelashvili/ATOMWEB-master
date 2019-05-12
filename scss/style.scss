@@ -66,16 +66,17 @@ header {
 
     // burger start
     .overlay_nav {
-      height: 100%;
+      height: 50%;
       width: 0;
       position: fixed;
       z-index: 1;
-      top: 0;
+      top: 100px;
       right: 0;
       background-color: $colorhover;
-      background-color: rgba(184,237,248, 0.9);
       overflow-x: hidden;
       transition: 0.5s;
+      color: red;
+
     }
     
     .overlay-content {
@@ -87,7 +88,6 @@ header {
     }
     
     .overlay_nav a {
-      padding: 8px;
       text-decoration: none;
       font-size: 36px;
       color: $colorbl;
@@ -95,7 +95,7 @@ header {
       transition: 0.4s;
     }
     
-    .overlay_nav a:hover, .overlay_nav a:focus {
+    .overlay_nav a:hover  {
       color: $colorgrey;
     }
     
