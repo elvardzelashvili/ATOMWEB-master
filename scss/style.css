@@ -591,12 +591,6 @@ footer img {
     max-width: 992px;
     margin: auto;
   }
-  .worktype {
-    width: 22%;
-  }
-  .myproject {
-    width: 30%;
-  }
   header nav {
     display: none;
   }
@@ -619,8 +613,10 @@ footer img {
     width: 932px;
   }
   .worktype {
+    width: 45%;
     height: 296px;
     margin-bottom: 30px;
+    margin-right: 30px;
   }
   #do img {
     height: 74px;
@@ -654,6 +650,18 @@ footer img {
   }
   #contact .inputsection, #contact .message {
     width: 555px;
+  }
+}
+
+@media only screen and (max-width: 930px) and (min-width: 769px) {
+  .worktypes {
+    -webkit-box-pack: normal;
+        -ms-flex-pack: normal;
+            justify-content: normal;
+  }
+  .worktype {
+    margin-left: 30px;
+    width: 35%;
   }
 }
 
@@ -853,7 +861,7 @@ footer img {
   #aboutus .artist {
     width: 250px;
     height: 250px;
-    margin: 60px 0px 60px 0px;
+    margin-right: auto;
   }
   #aboutus .artist img {
     -webkit-box-shadow: 10px 10px 0px 0px #b8edf8;
@@ -878,10 +886,6 @@ footer img {
   }
   footer p {
     width: 30%;
-  }
-  #aboutus .artist {
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
