@@ -14,18 +14,12 @@
                 
          }    
     header {
-        img {
-            padding-left: 30px;
-        }
-        
+               
         nav {
             display: none;
         }
 
-        
-        .hdiv {
-            margin-right: 30px;
-        }
+
     }
     #burger {
     display: block;
@@ -141,15 +135,19 @@
             width: 690px;
         
             }
+
+         aside {
+             margin-bottom: 60px;
+         }
     }
 
     .aboutusaside {
-        padding-top: 0px;
+        padding-top: 60px;
         width: 690px;
         .lineus {
-            margin-bottom: 20px;        }
+            margin-bottom: 20px; 
+             }
             }
-
 
     }
 
@@ -269,11 +267,11 @@
 
     // some add resp. styles
                                 
-    @media only screen and (max-width: 480px) 
+    @media only screen and (max-width: 555px) 
     {
-    header {
-    width: 95%;
-    }
+    // header {
+    // width: 95%;
+    // }
     header img {
     height: 22px;
     }

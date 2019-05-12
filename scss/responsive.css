@@ -9,14 +9,8 @@
   .myproject {
     width: 30%;
   }
-  header img {
-    padding-left: 30px;
-  }
   header nav {
     display: none;
-  }
-  header .hdiv {
-    margin-right: 30px;
   }
   #burger {
     display: block;
@@ -110,8 +104,11 @@
     font-size: 14px;
     width: 690px;
   }
+  #aboutus aside {
+    margin-bottom: 60px;
+  }
   .aboutusaside {
-    padding-top: 0px;
+    padding-top: 60px;
     width: 690px;
   }
   .aboutusaside .lineus {
@@ -224,10 +221,7 @@
   font-size: 24px;
 }
 
-@media only screen and (max-width: 480px) {
-  header {
-    width: 95%;
-  }
+@media only screen and (max-width: 555px) {
   header img {
     height: 22px;
   }
