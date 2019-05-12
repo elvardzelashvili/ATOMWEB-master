@@ -679,8 +679,16 @@ footer img {
     margin-top: 60px;
     margin-bottom: 100px;
   }
+  #aboutus .artist p {
+    padding-bottom: 60px;
+  }
   #aboutus .artist img {
     width: 100%;
+  }
+  #aboutus aside {
+    width: 90%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
