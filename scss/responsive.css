@@ -18,12 +18,11 @@
   header nav {
     display: none;
   }
-  header .burger {
-    display: block;
-    margin-right: 20px;
-  }
   header .hdiv {
     margin-right: 30px;
+  }
+  #burger {
+    display: block;
   }
   #myNav {
     display: block;
@@ -234,18 +233,16 @@ footer p {
   font-size: 24px;
 }
 
-.overlay_nav a {
-  font-size: 20px;
-}
-
-.overlay_nav .closebtn {
-  top: 15px;
-  right: 35px;
-}
-
 @media only screen and (max-width: 480px) {
   header {
     width: 95%;
+  }
+  header img {
+    height: 22px;
+  }
+  #burger {
+    font-size: 22px;
+    padding-left: 20px;
   }
   .topbannertext h1 {
     font-size: 20px;

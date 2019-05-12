@@ -37,10 +37,8 @@
                 </ul>
             
             </nav>
-            
             <div id="myNav" class="overlay_nav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
-                </a>
+                
                 <div class="overlay-content">
                         <a href="#mainNav">მთავარი</a>
                         <a href="#do">რას ვაკეთებ</a>
@@ -49,12 +47,13 @@
                         <a href="#contact">კონტაქტი</a>
                     
                 </div>
-                </div>
-        <img  onclick="openNav()" class="burger" src="img/burger.svg" alt="burgermenu"> 
-                  
                
-
-    </div>
+                </div>
+                
+            <span id="burger" onclick="openNav()">&#9776;</span>
+            <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;
+            </a>
+            </div> 
    
    </header>
     
@@ -241,13 +240,18 @@
     <script src="js/main.js" type="text/javascript"></script> -->
     <script>
         function openNav() {
-          document.getElementById("myNav").style.width = "100%";
+          document.getElementById("myNav").style.width = "50%";
+          document.getElementById("burger").style.display = "none";
+          document.getElementById("closebtn").style.display = "block";
         }
         
         function closeNav() {
           document.getElementById("myNav").style.width = "0%";
+          document.getElementById("burger").style.display = "block";
+          document.getElementById("closebtn").style.display = "none";
         }
         </script>
+
         <!-- meniu burger end -->
     <script>
         $(window).scroll(function() {
@@ -267,8 +271,8 @@
         
         });
     </script>
-
-    <!-- <script>
+  
+   <!-- <script>
         new WOW().init();
     </script> -->
 
@@ -277,5 +281,8 @@
         $(window).scrollTop(0);
         });
     </script>
+
+
+
 </body>
 </html>

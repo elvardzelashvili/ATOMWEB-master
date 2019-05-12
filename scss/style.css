@@ -146,18 +146,16 @@ header nav a:hover {
   width: 0;
   position: fixed;
   z-index: 1;
-  top: 0;
+  top: 100px;
   right: 0;
   background-color: #b8edf8;
-  background-color: rgba(184, 237, 248, 0.9);
-  overflow-x: hidden;
+  overflow: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .overlay-content {
   position: relative;
-  top: 25%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
@@ -165,7 +163,7 @@ header nav a:hover {
 
 .overlay_nav a {
   text-decoration: none;
-  font-size: 36px;
+  font-size: 34px;
   color: black;
   display: block;
   -webkit-transition: 0.4s;
@@ -173,20 +171,26 @@ header nav a:hover {
 }
 
 .overlay_nav a:hover {
-  color: #666666;
+  color: white;
 }
 
-.overlay_nav .closebtn {
+#closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
   color: #b8edf8;
+  font-size: 34px;
+  width: 27px;
+  height: 35px;
+  cursor: pointer;
+  display: none;
+  top: 32px;
+  right: 30px;
 }
 
-.burger {
-  height: 27px;
+#burger {
+  font-size: 27px;
   display: none;
+  color: #b8edf8;
+  cursor: pointer;
 }
 
 #myNav {
@@ -598,12 +602,11 @@ footer img {
   header nav {
     display: none;
   }
-  header .burger {
-    display: block;
-    margin-right: 20px;
-  }
   header .hdiv {
     margin-right: 30px;
+  }
+  #burger {
+    display: block;
   }
   #myNav {
     display: block;
@@ -814,18 +817,16 @@ footer p {
   font-size: 24px;
 }
 
-.overlay_nav a {
-  font-size: 20px;
-}
-
-.overlay_nav .closebtn {
-  top: 15px;
-  right: 35px;
-}
-
 @media only screen and (max-width: 480px) {
   header {
     width: 95%;
+  }
+  header img {
+    height: 22px;
+  }
+  #burger {
+    font-size: 22px;
+    padding-left: 20px;
   }
   .topbannertext h1 {
     font-size: 20px;

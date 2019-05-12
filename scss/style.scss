@@ -66,22 +66,19 @@ header {
 
     // burger start
     .overlay_nav {
-      height: 50%;
+      height: 100%;
       width: 0;
       position: fixed;
       z-index: 1;
       top: 100px;
       right: 0;
       background-color: $colorhover;
-      overflow-x: hidden;
+      overflow: hidden;
       transition: 0.5s;
-      color: red;
-
     }
     
     .overlay-content {
       position: relative;
-      top: 25%;
       width: 100%;
       text-align: center;
       margin-top: 30px;
@@ -89,28 +86,34 @@ header {
     
     .overlay_nav a {
       text-decoration: none;
-      font-size: 36px;
+      font-size: 34px;
       color: $colorbl;
       display: block;
       transition: 0.4s;
     }
     
     .overlay_nav a:hover  {
-      color: $colorgrey;
+      color: $colorwhite;
     }
     
-    .overlay_nav .closebtn {
+    #closebtn {
       position: absolute;
-      top: 20px;
-      right: 45px;
-      font-size: 60px;
       color: $colorhover;
-    }
-       
-    .burger {
-      height: 27px;
+      font-size: 34px;
+      width: 27px;
+      height: 35px;
+      cursor: pointer;
       display: none;
+      top: 32px;
+      right: 30px;
+  }
+    #burger {
+      font-size: 27px;
+      display: none;
+      color: $colorhover;
+      cursor:pointer
     }
+ 
     #myNav{
       display: none;
     }
