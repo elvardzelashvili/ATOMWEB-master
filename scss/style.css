@@ -145,6 +145,10 @@ header nav a:hover {
   color: #b8edf8;
 }
 
+.active {
+  color: #b8edf8;
+}
+
 .navActiv {
   display: block;
   -webkit-transition: all 0.3s ease-in;
@@ -586,6 +590,9 @@ footer img {
   .maincontainer {
     max-width: 992px;
     margin: auto;
+  }
+  .active {
+    color: #fff;
   }
   header img {
     padding-left: 30px;

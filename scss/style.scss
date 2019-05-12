@@ -70,7 +70,10 @@ header {
 
     // burger start
     
-    
+    .active{
+      color: $colorhover;
+    }
+
     .navActiv{
       display: block;
       transition: all 0.3s ease-in;
