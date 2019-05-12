@@ -246,6 +246,11 @@ footer p {
   #do p {
     width: 300px;
   }
+  .worktypes {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .worktype {
     width: 300px;
   }
@@ -282,6 +287,7 @@ footer p {
   }
   footer img {
     height: 20px;
+    margin-top: 20px;
   }
   .footercenter {
     -ms-flex-wrap: nowrap;
@@ -289,6 +295,10 @@ footer p {
   }
   footer p {
     width: 210px;
+  }
+  #aboutus .artist {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

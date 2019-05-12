@@ -292,8 +292,12 @@
     #do p {
         width: 300px;
     }
+    .worktypes{
+        justify-content: center;
+    }
     .worktype {
         width: 300px;
+        
          }
     .imgh, .myproject {
         width: 300px;
@@ -333,6 +337,7 @@
 
     footer img {
         height: 20px;
+        margin-top: 20px;
     } 
 
     .footercenter{
@@ -340,6 +345,10 @@
         footer p {
             width: 210px;
         }    
-             
+        #aboutus .artist {
+          
+         margin-left: auto;
+         margin-right: auto;
+        }         
     
 }
