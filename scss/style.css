@@ -582,8 +582,7 @@ footer img {
 }
 
 #back2Top:hover {
-  background: black;
-  color: #666666;
+  background: chocolate;
 }
 
 @media only screen and (max-width: 992px) {
