@@ -69,37 +69,25 @@ header {
     }
 
     // burger start
-    .overlay_nav {
-      height: 100%;
-      width: 0;
-      position: fixed;
-      z-index: 1;
-      top: 100px;
-      right: 0;
-      background-color: $colorhover;
-      overflow: hidden;
-      transition: 0.5s;
-    }
     
-    .overlay-content {
-      position: relative;
-      width: 100%;
-      text-align: center;
-      margin-top: 30px;
-    }
     
-    .overlay_nav a {
-      text-decoration: none;
-      font-size: 34px;
-      color: $colorbl;
+    .navActiv{
       display: block;
-      transition: 0.4s;
+      transition: all 0.3s ease-in;
+      transform: translateX(0%);
     }
-    
-    .overlay_nav a:hover  {
-      color: $colorwhite;
+    .burgerActiv #burger{
+        display: none;
     }
-    
+    .burgerActiv #closebtn{
+      display: block;
+    }
+    // burger start
+    .burger-box {
+      width: 30px;
+      height: 30px;
+      position: relative;
+    }
     #closebtn {
       position: absolute;
       color: $colorhover;
@@ -108,19 +96,27 @@ header {
       height: 35px;
       cursor: pointer;
       display: none;
-      top: 32px;
-      right: 30px;
-  }
+      top: 0;
+      right: 0;
+    }
     #burger {
       font-size: 27px;
+      height: 35px;
       display: none;
       color: $colorhover;
-      cursor:pointer
+      cursor: pointer;
     }
- 
-    #myNav{
-      display: none;
-    }
+    
+    header nav a:hover {
+      color: $colorhover;
+    
+  }
+    
+.clear{
+  height: 100px;
+  width: 100%;
+} 
+    
     // header ends
     // banner section  start
 #topbanner {

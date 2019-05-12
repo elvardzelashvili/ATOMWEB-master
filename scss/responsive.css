@@ -3,23 +3,46 @@
     max-width: 992px;
     margin: auto;
   }
+  header img {
+    padding-left: 30px;
+  }
   header nav {
-    display: none;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 45%;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.3s ease-in;
+    transition: -webkit-transform 0.3s ease-in;
+    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+  }
+  header ul {
+    background: #b8edf8;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: calc(100vh - 100px);
+  }
+  header ul a {
+    padding: 10px 0;
+  }
+  header .hdiv {
+    margin-right: 30px;
   }
   #burger {
     display: block;
   }
-  #myNav {
-    display: block;
-  }
-  .overlay_nav a {
-    padding-top: 36px;
-  }
-  .overlay_nav a:hover {
-    color: #b8edf8;
-  }
-  .overlay_nav {
-    font-size: 60px;
+  header nav a:hover {
+    color: white;
   }
   .centerdivresp {
     width: 932px;
@@ -186,6 +209,9 @@
     max-width: 576px;
     margin: auto;
   }
+  header nav {
+    width: 100%;
+  }
   .topbannertext h1 {
     font-size: 24px;
   }
@@ -212,9 +238,6 @@
   #works h2 {
     padding-top: 25px;
   }
-  #aboutus aside {
-    padding-bottom: 60px;
-  }
   #aboutus aside p {
     font-size: 14px;
     width: 450px;
@@ -234,7 +257,6 @@
   }
   .aboutusaside {
     padding-top: 60px;
-    padding-bottom: 60px;
     width: 450px;
   }
   .aboutusaside .lineus {

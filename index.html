@@ -14,22 +14,20 @@
     <meta property="fb:app_id" content="your_app_id" />
     <meta property="og:image:url" content="https://elvardzelashvili.github.io/ATOMWEB-master/img/project1.png">
     <meta property="og:url" content="https://elvardzelashvili.github.io/ATOMWEB-master/">
-    <!--stylesheets start  -->
-    <!-- <link rel="stylesheet" href="/animate.min.css">  -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!--stylesheet start  -->
+
     <link rel="stylesheet" type="text/css" href="scss/style.css">
     
     <title>ATOMWEB</title>
 </head>
 <body>
     <div class="maincontainer">
-   <header>
+   <header id="home">
         <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
         <div id="mainNav" class="hdiv">
-            <nav>
+            <nav class="myNav">
                 <ul>
-                    <li><a href="#mainNav">მთავარი</a></li>
+                    <li><a href="#home">მთავარი</a></li>
                     <li><a href="#do">რას ვაკეთებ</a></li>
                     <li><a href="#works">ნამუშევრები</a></li>
                     <li><a href="#aboutus">ჩემ შესახებ</a></li>
@@ -37,24 +35,14 @@
                 </ul>
             
             </nav>
-            <div id="myNav" class="overlay_nav">
-                
-                <div class="overlay-content">
-                        <a href="#mainNav">მთავარი</a>
-                        <a href="#do">რას ვაკეთებ</a>
-                        <a href="#works">ნამუშევრები</a>
-                        <a href="#aboutus">ჩემ შესახებ</a>
-                        <a href="#contact">კონტაქტი</a>
-                </div>
-                
+            <div class="burger-box" onclick="openNav()">
+                <div id="burger" >&#9776;</div>
+                <div id="closebtn">&times;</div>
             </div>
-                
-            <span id="burger" onclick="openNav()">&#9776;</span>
-            <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
         </div> 
    
    </header>
-    
+    <div class="clear"></div>
    <section id="topbanner" class="maincontainer">
         <div class="topbannertext">
           
@@ -231,26 +219,20 @@
    </div>   
 
     <!-- scripts here -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
      <!-- <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>  -->
      <!-- <script src="js/wow.min.js" type="text/javascript"></script> -->
-    <!-- <script src="js/main.js" type="text/javascript"></script> -->
+    <script src="js/main.js" type="text/javascript"></script>
     <script>
+        const nav = document.querySelector(".myNav");
+        const burger = document.querySelector(".burger-box");
         function openNav() {
-          document.getElementById("myNav").style.width = "50%";
-          document.getElementById("burger").style.display = "none";
-          document.getElementById("closebtn").style.display = "block";
-        }
-        
-        function closeNav() {
-          document.getElementById("myNav").style.width = "0%";
-          document.getElementById("burger").style.display = "block";
-          document.getElementById("closebtn").style.display = "none";
-        }
+        nav.classList.toggle("navActiv");
+        burger.classList.toggle("burgerActiv");}
         </script>
 
         <!-- meniu burger end -->
-    <!-- <script>
+    <script>
         $(window).scroll(function() {
             var height = $(window).scrollTop();
             if (height > 100) {
@@ -267,17 +249,9 @@
             });
         
         });
-    </script> -->
+    </script>
   
-   <!-- <script>
-        new WOW().init();
-    </script> -->
 
-    <!-- <script>
-        $(window).on('beforeunload', function(){
-        $(window).scrollTop(0);
-        });
-    </script> -->
 
 
 
