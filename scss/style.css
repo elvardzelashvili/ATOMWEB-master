@@ -286,7 +286,7 @@ header nav a:hover {
   flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -582,19 +582,16 @@ footer img {
   color: #666666;
 }
 
-@media only screen and (max-width: 1125px) {
+@media only screen and (max-width: 992px) {
+  .maincontainer {
+    max-width: 992px;
+    margin: auto;
+  }
   .worktype {
     width: 22%;
   }
   .myproject {
     width: 30%;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .maincontainer {
-    max-width: 992px;
-    margin: auto;
   }
   header img {
     padding-left: 30px;
@@ -620,11 +617,7 @@ footer img {
   .overlay_nav {
     font-size: 60px;
   }
-  .centerdivresp {
-    width: 932px;
-  }
   .worktype {
-    width: 451px;
     height: 296px;
     margin-bottom: 30px;
   }
@@ -674,12 +667,11 @@ footer img {
   .topbannertext h3 {
     font-size: 28px;
   }
-  .worktype {
-    width: 335px;
-    height: 296px;
+  .worktypes {
+    width: 44%;
   }
-  .centerdivresp {
-    width: 708px;
+  .worktype {
+    height: 296px;
   }
   .imgh, .myproject {
     width: 335px;
@@ -738,12 +730,8 @@ footer img {
     font-size: 20px;
   }
   .worktype {
-    width: 516px;
     height: 300px;
     margin-bottom: 25px;
-  }
-  .centerdivresp {
-    width: 516px;
   }
   .imgh, .myproject {
     width: 335px;
@@ -834,9 +822,6 @@ footer p {
   .topbannertext h3 {
     font-size: 18px;
   }
-  .centerdivresp {
-    width: 360px;
-  }
   #do p {
     width: 300px;
   }
@@ -844,9 +829,6 @@ footer p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  .worktype {
-    width: 300px;
   }
   .imgh, .myproject {
     width: 300px;
