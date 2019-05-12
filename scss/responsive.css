@@ -84,6 +84,15 @@
   .imgh {
     width: 100%;
   }
+  #aboutus .artist {
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  #aboutus .artist img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -110,7 +119,6 @@
   }
   #aboutus .artist {
     width: 647px;
-    height: 577px;
     margin-bottom: 70px;
   }
   #aboutus img {
@@ -152,15 +160,14 @@
   width: 690px;
 }
 
-@media only screen and (max-width: 750 px) and (min-width: 580px) {
+@media only screen and (max-width: 750px) and (min-width: 578px) {
   #aboutus .artist {
     width: 478px;
-    height: 250px;
-    margin-right: auto;
   }
   #aboutus .artist img {
-    -webkit-box-shadow: 10px 10px 0px 0px #b8edf8;
-            box-shadow: 10px 10px 0px 0px #b8edf8;
+    -webkit-box-shadow: 30px 30px 0px 0px #b8edf8;
+            box-shadow: 30px 30px 0px 0px #b8edf8;
+    width: 90%;
   }
 }
 
@@ -176,8 +183,11 @@
     font-size: 20px;
   }
   .worktype {
+    width: 516px;
     height: 300px;
     margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .centerdivresp {
     width: 516px;
@@ -250,6 +260,10 @@
   font-size: 24px;
 }
 
+footer p {
+  width: 46%;
+}
+
 @media only screen and (max-width: 555px) {
   header img {
     height: 22px;
@@ -293,7 +307,6 @@
   }
   #aboutus .artist {
     width: 250px;
-    height: 250px;
     margin-right: auto;
   }
   #aboutus .artist img {
