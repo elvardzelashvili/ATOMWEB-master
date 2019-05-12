@@ -191,7 +191,7 @@ header {
   margin-bottom: 60px;
 }
 .worktype{
-  width: 270px;
+  width: 22%;
   height: 300px;
   border: 1px solid #B2B2B2;
 }
@@ -240,11 +240,11 @@ header {
 
 
 .myproject{
-  width: 362px;
+  width: 30%;
   position: relative;
   height: 200px;
-  margin-bottom: 30px;
   z-index: -555;
+  margin: 15px 30px 20px 0;
 
   }
 .overlay {
@@ -278,7 +278,7 @@ header {
 
 .imgh{
   
-  width: 364px;
+  width: 100%;
   display: block;
   border: 2px solid $colorhover;
 }

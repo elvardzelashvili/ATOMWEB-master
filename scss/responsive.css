@@ -53,6 +53,7 @@
   .worktype {
     width: 45%;
     height: 296px;
+    margin-bottom: 30px;
   }
   #do img {
     height: 74px;
@@ -63,8 +64,10 @@
     margin: auto;
   }
   .imgh, .myproject {
-    width: 451px;
     height: 250px;
+  }
+  .myproject {
+    width: 40%;
   }
   .hovercontainer {
     height: 250px;
@@ -97,13 +100,13 @@
   }
   .worktype {
     margin-left: 30px;
-    width: 35%;
+    width: 44%;
   }
   #center {
     max-width: 770px;
   }
   .myproject {
-    width: 44%;
+    width: 40%;
   }
   .imgh {
     width: 100%;
@@ -161,7 +164,7 @@
   }
   #aboutus aside p {
     font-size: 14px;
-    width: 690px;
+    width: 90%;
   }
   #aboutus aside {
     margin-bottom: 60px;
@@ -230,8 +233,11 @@
     width: 516px;
   }
   .imgh, .myproject {
-    width: 335px;
     height: 180px;
+  }
+  .myproject {
+    width: 100%;
+    height: 284px;
   }
   #do p {
     width: 422px;
