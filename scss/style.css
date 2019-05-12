@@ -83,7 +83,7 @@ button {
 
 .centerdiv {
   margin: auto;
-  max-width: 1140px;
+  max-width: 1366px;
 }
 
 .centerdiv h2 {
@@ -395,6 +395,8 @@ header nav a:hover {
 
 #aboutus img {
   height: 100%;
+  margin-left: 60px;
+  margin-right: 60px;
   -webkit-box-shadow: 30px 30px 0px 0px #b8edf8;
           box-shadow: 30px 30px 0px 0px #b8edf8;
 }
@@ -617,6 +619,9 @@ footer img {
   .overlay_nav {
     font-size: 60px;
   }
+  .centerdivresp {
+    width: 932px;
+  }
   .worktype {
     height: 296px;
     margin-bottom: 30px;
@@ -670,6 +675,9 @@ footer img {
   .worktype {
     height: 296px;
     width: 44%;
+  }
+  .centerdivresp {
+    width: 708px;
   }
   .imgh, .myproject {
     width: 335px;
@@ -730,6 +738,9 @@ footer img {
   .worktype {
     height: 300px;
     margin-bottom: 25px;
+  }
+  .centerdivresp {
+    width: 516px;
   }
   .imgh, .myproject {
     width: 335px;
@@ -794,10 +805,6 @@ footer img {
       flex-wrap: nowrap;
 }
 
-footer p {
-  width: 250px;
-}
-
 .overlay_nav a {
   padding-top: 36px;
   font-size: 24px;
@@ -820,6 +827,9 @@ footer p {
   .topbannertext h3 {
     font-size: 18px;
   }
+  .centerdivresp {
+    width: 360px;
+  }
   #do p {
     width: 300px;
   }
@@ -827,6 +837,9 @@ footer p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .worktype {
+    width: 300px;
   }
   .imgh, .myproject {
     width: 300px;
@@ -868,7 +881,7 @@ footer p {
         flex-wrap: nowrap;
   }
   footer p {
-    width: 210px;
+    width: 30%;
   }
   #aboutus .artist {
     margin-left: auto;

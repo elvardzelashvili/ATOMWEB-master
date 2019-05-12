@@ -1,14 +1,5 @@
 
-    // @media only screen and (max-width: 1125px) 
-    // {  
-    // .worktype {
-    //     width: 22%;
-    // }
-    // .myproject{
-    //     width: 30%;
-        
-    // }
-    // }
+
     @media only screen and (max-width: 992px) 
     {  
     .maincontainer {
@@ -51,9 +42,9 @@
     .overlay_nav {
     font-size: 60px;
     }
-    // .centerdivresp {
-    // width: 932px;
-    // }
+    .centerdivresp {
+    width: 932px;
+    }
     .worktype {
     // width: 451px;
     height: 296px;
@@ -121,16 +112,15 @@
             }
         }
 
-    
         .worktype {
         // width: 335px;
         height: 296px;
         width: 44%;
         
     }
-    // .centerdivresp {
-    //     width: 708px;
-    // }
+    .centerdivresp {
+        width: 708px;
+    }
     .imgh, .myproject {
         width: 335px;
         height: 180px;
@@ -204,9 +194,9 @@
         height: 300px;
         margin-bottom: 25px;
     }
-    // .centerdivresp {
-    //     width: 516px;
-    // }
+    .centerdivresp {
+        width: 516px;
+    }
     .imgh, .myproject {
         width: 335px;
         height: 180px;
@@ -250,9 +240,6 @@
             margin-bottom: 20px;
         }
             }
-
-
-
     }
 
     #contact{
@@ -274,9 +261,7 @@
     .footercenter{
         flex-wrap: nowrap;
     }
-    footer p {
-        width: 250px;
-    }   
+      
     .overlay_nav a {
         padding-top: 36px;
         font-size: 24px;}
@@ -306,19 +291,19 @@
     font-size: 18px;
     }
 
-    // .centerdivresp {
-    // width: 360px;
-    // }
+    .centerdivresp {
+    width: 360px;
+    }
     #do p {
     width: 300px;
     }
     .worktypes{
     justify-content: center;
     }
-    // .worktype {
-    // width: 300px;
+    .worktype {
+    width: 300px;
 
-    //     }
+        }
     .imgh, .myproject {
     width: 300px;
     }
@@ -363,7 +348,7 @@
     .footercenter{
     flex-wrap: nowrap;}
     footer p {
-        width: 210px;
+        width: 30%;
     }    
     #aboutus .artist {
         
