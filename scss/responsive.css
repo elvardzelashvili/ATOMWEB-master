@@ -65,7 +65,7 @@
   }
 }
 
-@media only screen and (max-width: 930px) and (min-width: 769px) {
+@media only screen and (max-width: 940px) and (min-width: 769px) {
   .worktypes {
     -webkit-box-pack: normal;
         -ms-flex-pack: normal;
@@ -75,8 +75,14 @@
     margin-left: 30px;
     width: 35%;
   }
+  #center {
+    max-width: 770px;
+  }
   .myproject {
     width: 44%;
+  }
+  .imgh {
+    width: 100%;
   }
 }
 
@@ -144,6 +150,18 @@
 
 #contact .inputp {
   width: 690px;
+}
+
+@media only screen and (max-width: 750 px) and (min-width: 580px) {
+  #aboutus .artist {
+    width: 478px;
+    height: 250px;
+    margin-right: auto;
+  }
+  #aboutus .artist img {
+    -webkit-box-shadow: 10px 10px 0px 0px #b8edf8;
+            box-shadow: 10px 10px 0px 0px #b8edf8;
+  }
 }
 
 @media only screen and (max-width: 576px) {
