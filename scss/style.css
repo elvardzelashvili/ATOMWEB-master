@@ -667,11 +667,9 @@ footer img {
   .topbannertext h3 {
     font-size: 28px;
   }
-  .worktypes {
-    width: 44%;
-  }
   .worktype {
     height: 296px;
+    width: 44%;
   }
   .imgh, .myproject {
     width: 335px;
