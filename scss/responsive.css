@@ -333,9 +333,12 @@ footer p {
   }
   #aboutus aside {
     padding-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   #aboutus aside p {
     font-size: 14px;
+    width: 100%;
   }
   .centerdiv {
     max-width: 360px;

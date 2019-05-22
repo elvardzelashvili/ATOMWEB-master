@@ -346,8 +346,6 @@
   }
     // some add resp. styles
 
-
-
                                 
     @media only screen and (max-width: 555px) 
     {
@@ -382,10 +380,12 @@
     #aboutus {
     aside {
         padding-bottom: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
         aside p{
         font-size: 14px;
-       
+        width: 100%;       
 
         }
     }

@@ -149,6 +149,10 @@ header nav a:hover {
   color: #b8edf8;
 }
 
+.active a {
+  color: #b8edf8;
+}
+
 .navActiv {
   display: block;
   -webkit-transition: all 0.3s ease-in;
@@ -920,9 +924,12 @@ footer p {
   }
   #aboutus aside {
     padding-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   #aboutus aside p {
     font-size: 14px;
+    width: 100%;
   }
   .centerdiv {
     max-width: 360px;

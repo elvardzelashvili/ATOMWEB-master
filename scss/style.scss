@@ -73,7 +73,9 @@ header {
     .active{
       color: $colorhover;
     }
-
+    .active a{
+      color: $colorhover;
+    }
     .navActiv{
       display: block;
       transition: all 0.3s ease-in;
