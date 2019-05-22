@@ -341,7 +341,7 @@ footer p {
     max-width: 360px;
   }
   #aboutus .artist {
-    margin-right: 15px 0px;
+    margin: 15px 0px;
   }
   #aboutus .artist img {
     -webkit-box-shadow: 10px 10px 0px 0px #b8edf8;
